@@ -1,0 +1,31 @@
+{
+	"name": "n3csis/hello_world",
+	"version": "0.0.1",
+	"type": "elgg-plugin",
+	"description": "Hello world created by composer",
+	"homepage": "https://folk.in.ua/",
+	"keywords": [
+		"elgg", "plugin", "hello"
+	],
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "Pavlo Stepanovych",
+			"email": "pavel.primavera@gmail.com"
+		}
+	],
+	"extra": {
+		"installer-name": "n3_hello_world"
+	},
+	"require": {
+		"composer/installers": "~1.0",
+		"embedly/embed-php": ">=0.5.6",
+    "embedly/embedly-jquery": ">=3.1.2",
+    "mvdbos/php-spider": ">=0.2",
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	}
+}
