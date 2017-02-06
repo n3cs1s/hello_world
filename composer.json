@@ -23,6 +23,12 @@
     "embedly/embedly-jquery": ">=3.1.2",
     "mvdbos/php-spider": ">=0.2",
 	},
+	"repositories":[
+        {
+            "type":"git",
+            "url":"http://github.com/n3cs1s/hello_world"
+        }
+    ],
 	"autoload": {
 		"psr-0": {
 			"": "classes/"
