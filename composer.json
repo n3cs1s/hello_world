@@ -28,9 +28,5 @@
             "url":"http://github.com/n3cs1s/hello_world"
         }
     ],
-	"autoload": {
-		"psr-0": {
-			"": "classes/"
-		}
-	}
+
 }
